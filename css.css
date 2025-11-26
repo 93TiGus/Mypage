@@ -1,0 +1,36 @@
+/* ในไฟล์ css.css */
+
+.profile-round-img {
+  display: inline-block;
+  border-radius: 50%; /* สำคัญมากที่จะทำให้เป็นวงกลม */
+  width: 200px; /* กำหนดความกว้าง */
+  height: 200px; /* กำหนดความสูงให้เท่ากับความกว้าง */
+  object-fit: cover; /* ครอปรูปภาพให้พอดี โดยไม่บิดเบี้ยว */
+  border: 4px solid #343a40; /* ขอบหนา */
+  margin-top: 2rem; /* ระยะห่างจากด้านบน */
+}
+
+/* ส่วนอื่นๆ ของ CSS ที่คุณมี */
+body {
+  padding: 0; /* แนะนำให้ใช้ 0 แทน auto */
+  margin: 0;
+}
+
+.nav-link {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.nav-pills .nav-link.active {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #000000;
+  color: white;
+}
+.nav-pills .nav-link {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #000000;
+}
+
+.bi {
+  color: #000000;
+}
